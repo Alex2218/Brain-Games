@@ -4,9 +4,9 @@ from random import randint
 DESCRIPTION = 'Find the greatest common divisor of given numbers.'
 
 
-def get_question_and_answer():
-    num1 = randint(1, 100)
-    num2 = randint(1, 100)
+def question_and_answer():
+    num1 = randint(1, 20)
+    num2 = randint(1, 20)
     question = f"{str(num1)} {str(num2)}"
     result = find_gcd(num1, num2)
     return str(result), question

@@ -10,7 +10,7 @@ def run(game):
     print(welcome)
     print(game.DESCRIPTION)
     while number_of_round <= QUANTITY_OF_ROUNDS:
-        result, question, = game.get_question_and_answer()
+        result, question, = game.question_and_answer()
         print('Question: ' + question)
         answer = prompt.string('Your answer: ')
         if result == answer:
