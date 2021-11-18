@@ -12,30 +12,7 @@ This 5 games developed for training your brain with simple mathematical examples
 - Arithmetic progression `brain-progression`
 - Prime number `brain-prime`
 
-## Installation
-
-For install games use command:
-
-```bash
-pip install --user --extra-index-url https://test.pypi.org/simple/ Alex2218_brain_games
-```
 
 ## Example:
 
-### Brain Even
-
-
-
-### Brain Calc
-
-
-
-### Brain Gcd
-
-
-
-### Brain Progression
-
-
-
-### Brain Prime
+[![asciicast](https://asciinema.org/a/G8YjvPHtrT4J4WB9lgYFuJWPd.svg)](https://asciinema.org/a/G8YjvPHtrT4J4WB9lgYFuJWPd)
