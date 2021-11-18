@@ -11,12 +11,14 @@ def question_and_answer():
 
 
 def is_prime(num):
-    if num <= 1:
+    if (num < 2):
         return False
-    else:
-        counter = 2
-        while counter <= num / 2:
-            if num % counter == 0:
-                return False
-            counter += 1
-        return True
+
+    divider = 2
+
+    while divider <= num / 2:
+        if num % divider == 0:
+            return False
+        divider += 1
+
+    return True
