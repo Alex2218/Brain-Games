@@ -6,9 +6,10 @@ DESCRIPTION = 'What number is missing in the progression?'
 
 def question_and_answer():
     progression_length = randint(5, 10)
-    start, step = randint(1, 100), randint(1, 5)
+    start = randint(1, 20)
     position_of_indefinite_num = randint(0, progression_length - 1)
-    index_of_num = 0
+    step = randint(1, 5)
+    index_of_num = 1
     question = ''
     while index_of_num < progression_length:
         if index_of_num == position_of_indefinite_num:
