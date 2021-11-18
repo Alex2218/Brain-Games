@@ -2,7 +2,7 @@
 from random import choice, randint
 
 DESCRIPTION = 'What number is missing in the progression?'
-SEQUENCE_LENGTH = randint (5, 10)
+SEQUENCE_LENGTH = randint(5, 10)
 
 
 def question_and_answer():

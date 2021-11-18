@@ -24,7 +24,7 @@ def run(game):
 
 
 def show_game_over(answer_user, correct_answer, name_user):
- 
+
     print("'{0}' is wrong answer ;(. Correct answer was '{1}'".format(
         answer_user,
         correct_answer,
