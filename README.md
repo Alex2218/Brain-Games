@@ -12,7 +12,7 @@ This 5 games developed for training your brain with simple mathematical examples
 - Arithmetic progression `brain-progression`
 - Prime number `brain-prime`
 
-##Installation
+## Installation
 
 For install games use command:
 
@@ -20,7 +20,7 @@ For install games use command:
 pip install --user --extra-index-url https://test.pypi.org/simple/ Alex2218_brain_games
 ```
 
-##Example:
+## Example:
 
 ### Brain Even
 
